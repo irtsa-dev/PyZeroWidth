@@ -44,7 +44,7 @@ def __tri(number: int) -> str:
 
 
 
-def __encodeBase(text: str, secret: str, base: str, encoding: str, fillAmount: int):
+def __encodeBase(text: str, secret: str, base: str, encoding: str, fillAmount: int) -> str:
     global ZWCharacters
 
     if not any([encoding.lower() in alis for alis in ZWCharacterSelections]): return None
