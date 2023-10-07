@@ -60,7 +60,7 @@ encode.quaternary12(message: str, secret: str, encoding: str = 'utf') -> str
 decode.binary8(message: str, encoding: str = 'utf') -> str
 decode.binary16(message: str, encoding: str = 'utf') -> str
 decode.binary24(message: str, encoding: str = 'utf') -> str
-# Decoding functions that deccodes the 'message' attempting to find zero-width characters encoded in a binary format.
+# Decoding functions that decodes the 'message' attempting to find zero-width characters encoded in a binary format.
 # Binary8 will expect the message to be encoded using the binary8 encode function and as such characters being represented with 8 digits.
 # Binary16 will expect the message to be encoded using the binary16 encode function and as such characters being represented with 16 digits.
 # Binary24 will expect the message to be encoded using the binary24 encode function and as such characters being represented with 24 digits.
@@ -69,7 +69,7 @@ decode.binary24(message: str, encoding: str = 'utf') -> str
 decode.trinary6(message: str, encoding: str = 'utf') -> str
 decode.trinary11(message: str, encoding: str = 'utf') -> str
 decode.trinary16(message: str, encoding: str = 'utf') -> str
-# Decoding functions that deccodes the 'message' attempting to find zero-width characters encoded in a trinary format.
+# Decoding functions that decodes the 'message' attempting to find zero-width characters encoded in a trinary format.
 # Trinary6 will expect the message to be encoded using the trinary6 encode function and as such characters being represented with 6 digits.
 # Trinary11 will expect the message to be encoded using the trinary11 encode function and as such characters being represented with 11 digits.
 # Trinary16 will expect the message to be encoded using the trinary16 encode function and as such characters being represented with 16 digits.
@@ -78,7 +78,7 @@ decode.trinary16(message: str, encoding: str = 'utf') -> str
 decode.quaternary4(message: str, encoding: str = 'utf') -> str
 decode.quaternary8(message: str, encoding: str = 'utf') -> str
 decode.quaternary12(message: str, encoding: str = 'utf') -> str
-# Decoding functions that deccodes the 'message' attempting to find zero-width characters encoded in a quaternary format.
+# Decoding functions that decodes the 'message' attempting to find zero-width characters encoded in a quaternary format.
 # Quaternary4 will expect the message to be encoded using the quaternary4 encode function and as such characters being represented with 4 digits.
 # Quaternary8 will expect the message to be encoded using the quaternary8 encode function and as such characters being represented with 8 digits.
 # Quaternary12 will expect the message to be encoded using the quaternary12 encode function and as such characters being represented with 12 digits.
