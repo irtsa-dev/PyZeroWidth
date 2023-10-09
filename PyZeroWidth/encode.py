@@ -9,13 +9,15 @@
 ZWCharacterSelections = [
     ['utf8','utf-8','u8','utf', 'cp65001'],
     ['ascii','us-ascii','646'],
-    ['latin', 'latin1', 'latin_1', 'iso-8859-1', 'iso8859-1', '8859', 'cp819']
+    ['latin', 'latin1', 'latin_1', 'iso-8859-1', 'iso8859-1', '8859', 'cp819'],
+    ['big5', 'big5-tw', 'csbig5', 'big5hkscs', 'big5-hkscs', 'hkscs']
 ]
 
 ZWCharacters = [
     ['\u200c','\u200d','\u2060','\ufeff'],
     ['\x00', '\x07', '\x08', '\x09'],
-    ['\x80', '\x81', '\x82', '\x83']
+    ['\x80', '\x81', '\x82', '\x83'],
+    ['\x00','\x07', '\x0e', '\x0f']
 ]
 
 
