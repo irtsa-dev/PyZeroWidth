@@ -1,3 +1,4 @@
+![PyPI](https://img.shields.io/pypi/v/idev-pyzerowidth) ![Python](https://img.shields.io/pypi/pyversions/idev-pyzerowidth)
 # **PyZeroWidth**
 A simple set of functions in [**python**](https://www.python.org) for encoding messages into **zero-width** characters.
 <br />
@@ -6,7 +7,11 @@ A simple set of functions in [**python**](https://www.python.org) for encoding m
 # Installation
 With `git` [GitHub](https://github.com):
 ```
-git clone https://github.com/IrtsaDevelopment/PyStatistics.git
+git clone https://github.com/IrtsaDevelopment/PyZeroWidth.git
+```
+With `pip` [PyPi](https://pypi.org/project/idev-pyzerowidth/)
+```
+pip install idev-pyzerowidth
 ```
 <br />
 <br />
