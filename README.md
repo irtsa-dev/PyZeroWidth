@@ -88,15 +88,3 @@ decode.quaternary12(message: str, encoding: str = 'utf') -> str
 # Quaternary8 will expect the message to be encoded using the quaternary8 encode function and as such characters being represented with 8 digits.
 # Quaternary12 will expect the message to be encoded using the quaternary12 encode function and as such characters being represented with 12 digits.
 ```
-​
-<br />
-<br />
-<br />
-<br />
-# Additional Notes
-Only a few encoding formats are currently supported.
-> UTF-8 (utf, utf8, utf-8, u8, cp65001)
-
-> ASCII (ascii, us-ascii, 646)
-
-> LATIN (latin, latin1, latin-1, iso-8859-1, iso8859-1, 8859, cp819)
