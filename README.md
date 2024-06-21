@@ -7,7 +7,7 @@ A simple set of functions in [**python**](https://www.python.org) for encoding m
 # Installation
 With `git` [GitHub](https://github.com):
 ```
-git clone https://github.com/IrtsaDevelopment/PyZeroWidth.git
+git clone https://github.com/irtsa-dev/PyZeroWidth.git
 ```
 With `pip` [PyPi](https://pypi.org/project/idev-pyzerowidth/)
 ```
